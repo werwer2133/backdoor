@@ -2,7 +2,7 @@ import socket
 
 def main():
     host = "127.0.0.1" # ip который будем прослушивать
-    port = 80 # порт
+    port = 6500 # порт
  
     s = socket.socket() # создаем сокет
     s.bind((host,port))
