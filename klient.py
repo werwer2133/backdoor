@@ -7,7 +7,7 @@ def ExecuteCommand(command):
 
 def main():
         host = "127.0.0.1" # ip который будем использовать
-        port = 80 # порт
+        port = 6500 # порт
         while True:
             while True:
                 try:
