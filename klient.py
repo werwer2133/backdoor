@@ -6,7 +6,7 @@ def ExecuteCommand(command):
         return output
 
 def main():
-        host = "192.168.1.106" # ip который будем использовать
+        host = "127.0.0.1" # ip который будем использовать
         port = 80 # порт
         while True:
             while True:
